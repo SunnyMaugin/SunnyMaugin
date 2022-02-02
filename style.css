@@ -30,7 +30,7 @@ img {
 }
 
 p {
-	color: #000;
+	color: rgb(12, 11, 11);
 	font-size: 1.4rem;
 	margin-top: 5px;
 	line-height: 2.5rem;
@@ -41,7 +41,7 @@ p {
 .section-title {
 	font-size: 4rem;
 	font-weight: 300;
-	color: #000;
+	color: rgb(7, 6, 6);
 	margin-bottom: 10px;
 	text-transform: uppercase;
 	letter-spacing: 0.2rem;
@@ -49,15 +49,15 @@ p {
 }
 
 .section-title span {
-	color: #880808;
+	color: #1b1a1a;
 }
 
 .cta {
 	display: inline-block;
 	padding: 10px 30px;
-	color: #fff;
+	color: rgb(22, 18, 18);
 	background-color: transparent;
-	border: 2px solid #880808;
+	border: 2px solid #1b1a1a;
 	font-size: 2rem;
 	text-transform: uppercase;
 	letter-spacing: 0.1rem;
@@ -67,18 +67,18 @@ p {
 }
 
 .cta:hover {
-	color: #fff;
-	background-color: #880808;
+	color: rgb(207, 197, 197);
+	background-color: #1b1a1a;
 }
 
 .brand h1 {
 	font-size: 3rem;
 	text-transform: uppercase;
-	color: #fff;
+	color: rgb(219, 209, 209);
 }
 
 .brand h1 span {
-	color: #880808;
+	color: #796d6d;
 }
 
 #header {
@@ -92,7 +92,7 @@ p {
 
 #header .header {
 	min-height: 8vh;
-	background-color: #f28500;
+	background-color: rgb(27, 26, 26);
 	transition: 0.3s ease background-color;
 }
 
@@ -109,7 +109,7 @@ p {
 #header .nav-list ul {
 	list-style: none;
 	position: absolute;
-	background-color: #f28500;
+	background-color: rgb(27, 26, 26);
 	width: 100vw;
 	height: 100vh;
 	left: 100%;
@@ -132,7 +132,7 @@ p {
 	font-weight: 500;
 	letter-spacing: 0.2rem;
 	text-decoration: none;
-	color: #fff;
+	color: rgb(207, 197, 197);
 	text-transform: uppercase;
 	padding: 20px;
 	display: block;
@@ -144,7 +144,7 @@ p {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%) scale(0);
-	color: #f28500;
+	color: rgb(27, 26, 26);
 	font-size: 13rem;
 	letter-spacing: 50px;
 	z-index: -1;
@@ -157,7 +157,7 @@ p {
 }
 
 #header .nav-list ul li:hover a {
-	color: #880808;
+	color: rgb(27, 26, 26);
 }
 
 #header .hamburger {
@@ -237,7 +237,7 @@ p {
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-color: #f28500;
+	background-color: rgb(3, 3, 3);
 	opacity: 0.7;
 	z-index: -1;
 }
@@ -278,7 +278,7 @@ p {
 	left: 0;
 	height: 100%;
 	width: 0;
-	background-color: #880808;
+	background-color: rgb(27, 26, 26);
 	animation: text_reveal_box 1s ease;
 	animation-delay: 0.5s;
 }
@@ -338,7 +338,7 @@ p {
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-image: linear-gradient(60deg, #f28500 0%, #f28500 100%);
+	background-image: linear-gradient(60deg, rgb(128, 42, 42) 0%, rgb(44, 40, 40) 100%);
 	opacity: 0.9;
 	z-index: -1;
 }
@@ -398,7 +398,7 @@ p {
 	align-items: flex-start;
 	justify-content: center;
 	flex-direction: column;
-	background-image: linear-gradient(60deg, #f28500 0%, #f28500 100%);
+	background-image: linear-gradient(60deg, rgb(44, 40, 40) 0%, rgb(44, 40, 40) 100%);
 	color: #fff;
 }
 
@@ -431,7 +431,7 @@ p {
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-image: linear-gradient(60deg, #f28500 0%, #f28500 100%);
+	background-image: linear-gradient(60deg, rgb(44, 40, 40) 0%, rgb(44, 40, 40) 100%);
 	opacity: 0.7;
 }
 
@@ -469,10 +469,11 @@ p {
 
 #about .col-right p {
 	margin-bottom: 20px;
+	color: black;
 }
 
 #about .col-right .cta {
-	color: #000;
+	color: rgb(207, 197, 197);
 	margin-bottom: 50px;
 	padding: 10px 20px;
 	font-size: 2rem;
@@ -482,7 +483,7 @@ p {
 	height: 100%;
 	width: 100%;
 	position: relative;
-	border: 10px solid #fff;
+	border: 10px solid rgb(3, 3, 3);
 }
 
 #about .col-left .about-img::after {
@@ -492,7 +493,7 @@ p {
 	top: 19px;
 	height: 98%;
 	width: 98%;
-	border: 7px solid #880808;
+	border: 7px solid rgb(3, 3, 3);
 	z-index: -1;
 }
 
@@ -545,7 +546,7 @@ p {
 }
 
 #footer {
-	background-image: linear-gradient(60deg, #f28500 0%, #f28500 100%);
+	background-image: linear-gradient(60deg, rgb(44, 40, 40) 0%, rgb(44, 40, 40) 100%);
 }
 
 #footer .footer {
@@ -613,13 +614,13 @@ p {
 
 @keyframes text_reveal {
 	100% {
-		color: #fff;
+		color: rgb(214, 203, 203);
 	}
 }
 
 @keyframes text_reveal_name {
 	100% {
-		color: #880808;
+		color: rgb(241, 234, 234);
 		font-weight: 500;
 	}
 }
@@ -681,7 +682,7 @@ p {
 		top: 34px;
 		height: 98%;
 		width: 98%;
-		border: 10px solid #880808;
+		border: 10px solid rgb(44, 40, 40);
 	}  
   
 	#about .col-right {
